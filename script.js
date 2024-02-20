@@ -1,4 +1,5 @@
 "use strict";
+document.getElementById("amount").focus()
 const btn = document.getElementsByTagName("input")[1];
 
 btn.addEventListener("click", function() { 
