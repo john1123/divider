@@ -5,7 +5,9 @@ btn.addEventListener("click", function() {
     const amnt = document.getElementById('amount').value;
     const results = document.getElementById('results');
     let out = "";
-    out += "10% от суммы составляют: " + (10 * amnt / 100) + "<br />\n";
-    out += "90% от суммы составляют: " + (90 * amnt / 100);
+    out += "10% Володя: " + (10 * amnt / 100) + "<br />\n";
+    out += "10% Фонд Сергея Михеева: " + (10 * amnt / 100) + "<br />\n";
+    out += "60% Инна: " + (60 * amnt / 100) + "<br />\n";
+    out += "20% На личные нужды: " + (20 * amnt / 100);
     results.innerHTML = out;
 })
